@@ -1,0 +1,15 @@
+.post-dialoge{
+  .post-image{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .post-heading{
+    font-size: $font-size-base;
+    color: $primary;
+  }
+  .post-content{
+    font-size: $font-size-sm;
+    color: $gray;
+  }
+}

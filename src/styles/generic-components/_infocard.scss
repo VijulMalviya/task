@@ -1,0 +1,33 @@
+.infoCard {
+  padding: 1rem;
+  border: 1px solid $field-background;
+  border-radius: 4px;
+  text-decoration: none;
+
+  .user-info {
+    .user-name {
+      font-size: $font-size-base;
+      font-weight: $font-weight-medium;
+      color: $black;
+
+      @media screen and (max-width: $sm-breakpoint) {
+        font-size: $font-size-sm;
+      }
+    }
+  }
+
+  .user-post-count {
+    font-size: $font-size-base;
+    font-weight: $font-weight-medium;
+    color: $black;
+
+
+    @media screen and (max-width: $sm-breakpoint) {
+      font-size: $font-size-sm;
+    }
+
+    span {
+      color: $success;
+    }
+  }
+}

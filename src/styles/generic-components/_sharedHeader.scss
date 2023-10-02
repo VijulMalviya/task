@@ -1,0 +1,11 @@
+.shared-header{
+  width: 100%;
+  height: 3.125rem;
+  background-color: $light-gray;
+  padding-left: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: $black;
+  font-weight: $font-weight-medium;
+}

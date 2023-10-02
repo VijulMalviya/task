@@ -1,0 +1,31 @@
+.user-details,.user-posts{
+  border: 1px solid $field-background;
+  padding: 1rem;
+}
+
+.user-details{
+  .user_image{
+    width: 5rem;
+    height: 5rem;
+  }
+  .heading{
+    font-size: $font-size-base;
+    font-weight: $font-weight-medium;
+    color: $primary;
+    display: flex;
+    align-items: center;
+  }
+  .subHeading{
+    font-size: $font-size-sm;
+    color: $gray;
+  }
+  .success-text{
+    color: $success !important;
+  }
+  .no-data-found{
+    text-align: center;
+    color: $black;
+    font-size: $font-size-lg;
+  }
+  
+}

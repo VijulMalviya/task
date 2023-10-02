@@ -1,0 +1,35 @@
+.card {
+  box-shadow: none !important;
+  border: 1px solid $field-background;
+  cursor: pointer;
+
+  .card_image {
+    height: 12.5rem;
+  }
+
+  .card-title {
+    font-weight: $font-weight-medium;
+    color: $primary;
+    font-size: $font-size-lg;
+
+    @media screen and (max-width: $sm-breakpoint) {
+      font-size: $font-size-base;
+    }
+  }
+
+  .card-content {
+    font-size: $font-size-base;
+    color: $gray;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; // Limit the content to 3 lines
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+
+    @media screen and (max-width: $sm-breakpoint) {
+      font-size: $font-size-sm;
+      -webkit-line-clamp: 3; // Limit the content to 3 lines 
+    }
+  }
+}

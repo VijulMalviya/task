@@ -1,0 +1,13 @@
+.Footer {
+  height: $footer-height;
+  background: $linear-background;
+}
+
+.footer-container{
+  height: $footer-height;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: $font-size-sm;
+  color: white;
+}

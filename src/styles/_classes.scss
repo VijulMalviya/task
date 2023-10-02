@@ -1,0 +1,46 @@
+.mt-10 {
+  margin-top: .625rem !important;
+}
+
+.mt-18 {
+  margin-top: 1.125rem !important;
+}
+
+.mt-30 {
+  margin-top: 1.125rem !important;
+}
+
+.mr-5 {
+  margin-right: .3125rem;
+}
+
+.mt-5 {
+  margin-top: .3125rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.no-data {
+  color: $light-red;
+  font-weight: $font-weight-medium;
+  padding: 1rem;
+}
+
+.space-from-top {
+  margin-top: $header-height;
+
+  @media screen and (max-width: $sm-breakpoint) {
+    margin-top: $header-height-sm;
+  }
+}
+
+.app-container {
+  min-height: calc(100vh - ($header-height + $footer-height ));
+  height: 100%;
+
+  @media screen and (max-width: $sm-breakpoint) {
+    min-height: calc(100vh - ($header-height-sm + $footer-height-sm ));
+  }
+}

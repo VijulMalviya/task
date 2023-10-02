@@ -1,0 +1,7 @@
+.directories-container {
+  padding: 1rem;
+
+  @media screen and (max-width: $sm-breakpoint) {
+    padding: 1rem;
+  }
+}

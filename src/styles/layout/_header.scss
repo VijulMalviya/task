@@ -1,0 +1,25 @@
+.Header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  height: $header-height;
+  background: $linear-background;
+  @media screen and (max-width: $sm-breakpoint) {
+    height: $header-height-sm;
+}
+
+.header-container {
+  height: $header-height;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: $font-size-base;
+  color: white;
+
+  @media screen and (max-width: $sm-breakpoint) {
+    font-size: $font-size-sm;
+    height: $header-height-sm;
+  }
+}
+}
